@@ -8,9 +8,9 @@ import Paragraph from '../components/Paragraph'
 const StartScreen = ({ navigation }) => (
   <Background>
     <Logo />
-    <Header>Login Template</Header>
+    <Header>Sentimental App</Header>
     <Paragraph>
-      The easiest way to start with your amazing application.
+      Login or signup to get started!
     </Paragraph>
     <Button mode="contained" onPress={() => navigation.navigate('LoginScreen')}>
       Login
