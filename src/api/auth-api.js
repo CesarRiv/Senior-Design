@@ -44,3 +44,11 @@ export const sendEmailWithPassword = async (email) => {
     }
   }
 }
+
+export const getGroceryList = groceryListId => {
+  return db.collection('scores').doc(groceryListId).get();
+};
+
+export const getGroceryListItems = groceryListId => {
+  return db.collection('scores').doc(groceryListId).collection('score').get();
+}

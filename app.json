@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Firebase Login Template",
-    "slug": "firebase-login-template",
+    "name": "Senior Design Project Sentiment",
+    "slug": "senior-design-project-sentiment",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -27,6 +27,7 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": ""
   }
 }
