@@ -19,14 +19,10 @@ export default class Dashboard extends React.Component {
     this.state = {
       sentimentScore:null,
       generalSentiment:null,
-
-
     };
 
     this.findSentiment = this.findSentiment.bind(this)
   }
-
-
 
   findSentiment=(event)=>{
     const result = sentiment.analyze(event.target.value)
@@ -49,7 +45,6 @@ export default class Dashboard extends React.Component {
         generalSentiment: 'Neutral'
       })
     }
-  
   }
 
   render() {
